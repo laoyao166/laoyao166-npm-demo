@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 // test
-console.log(getRandomInt(1,10));
+// console.log(getRandomInt(1,10));
 module.exports = {
     getRandomInt,
 }
